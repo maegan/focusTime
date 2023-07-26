@@ -15,6 +15,7 @@ import { FocusHistory } from './src/features/FocusHistory';
 
 
 export default function App() {
+  console.log('testing');
   const [currentSubject, setCurrentSubject] = useState();
   const[history, setHistory] = useState(['temp feature focused']);
   return (
